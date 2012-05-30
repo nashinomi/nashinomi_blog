@@ -1,0 +1,474 @@
+/*
+ * Theme Name: nashinomiblog
+ * Theme URI: http://www.www.www/
+ * Description: This is mysample theme.
+ */
+ 
+ 
+@import url("css/common.css");
+
+
+/* 上段の背景 */
+div#head-continer{
+	width : 100%;
+	margin-top:20px;
+	background-image: url(img/main_overlay_flower.png);
+	background-color: transparent;
+	background-position: 97% 100%;
+	background-repeat: no-repeat;
+}
+
+/************************************************************
+					 ヘッダー 
+*************************************************************/
+div#header h1 {
+	font.size: 1.875em;
+	float: left;
+	margin: 10px;
+	margin-bottom: 10px;
+	font: normal normal 36px 'Courier New', Courier, FreeMono, monospace;
+	color: white;
+	text-shadow: 2px 2px rgba(0, 0, 0, .1);
+}
+div#header h1 a{
+	text-decoration: none;
+	color: white;
+}
+div#header p#desc{
+	font-size: 0.75em;
+	color: #444444;
+	margin: 0;
+	margin-top: 18px;
+	float: right;
+}
+div#header {
+	width : 920px;
+	height: 100px;
+	margin: 0 auto;
+	border-bottom: none;
+	padding-bottom: 0;
+}
+/************************************************************
+				 ヘッド画像領域
+*************************************************************/
+div#header_images{
+	margin: 0;
+	width:100%;
+	height:120px;
+	background-image: url(img/main_cap_flower.png);
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	background-repeat: repeat-x
+}
+
+/************************************************************
+				 コンテンツ 
+ ************************************************************/
+/* 下段コンテナー */
+div#main_container{
+	width: 100%;
+	margin: 0;
+	background-color: #66BB33;
+	background-image: url(img/body_background_flower.png);
+	background-position: 0;
+}
+
+/* 下段部分の背景 */
+div#main{
+	width: 920px;
+	margin: 0 auto;
+	padding: 20px;
+	/*border-left:solid 1px #000;
+	border-right:solid 1px #000;*/
+}
+/* コンテンツ部分 */
+div#content{
+	width: 650px;
+	float: left;
+}
+/*
+	板とかのオプション
+*/
+div.postbox{
+	background-color:#b15400;
+	border-bottom:none;
+	background-image:url(img/bord.png);
+	padding-top: 20px;
+}
+div.content_bottom{
+	height:100px;
+	background-color:rgba(200,113,77,0.3);
+	margin-bottom: 40px;
+	background-image:url(img/bottom_bar2.png);
+	background-repeat: repeat-x;
+	background-position:70% 70%;
+}
+div.bottom_kusa{
+	height:100px;
+	background-image:url(img/bottom_bar.png);
+}
+div.categoryPlate{
+	
+}
+span.plateFont{
+	display:inline-block;
+	margin-top:-20px;
+	padding: 10px 30px 10px 10px;
+	-webkit-border-image: url(img/imagebox1.png) 2 5 2 13 / 2px 5px 2px 13px;
+	font-size:14px;
+	font-weight:600;
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
+}
+div#content hr{
+	border-style: solid;
+	border-color: #fff;
+	border-width: 1px; 
+}
+p#pagetitle{
+	font-size: 0.875em;
+	font-weight: bold;
+	color: #fff;
+	border: dotted 3px #7CE;
+	text-align:center;
+	padding: 10px 0;
+	margin-top: 0;
+}
+/* 日付と時間(font) */
+h2.date-header {
+	text-align: center;
+	font: normal normal 18px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+	color: #fff;
+	padding-bottom: 10px;
+	text-shadow: 1px 1px 2px #000;
+}
+h2.date-header a{
+	text-decoration: none;
+	text-align: center;
+	font: normal normal 18px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+	color: #fff;
+	text-shadow: 1px 1px 2px #000;
+}
+
+/************************************************************
+						 投稿記事 
+*************************************************************/
+div.post {
+	width: 590px;
+	margin-left:20px;
+	padding:30px 10px;
+	color: #000;
+	-webkit-border-image: url(img/bord_paper2.png) 1 1 0 0 / 1px 1px 0px 0px;
+	/*text-shadow: 1px 1px 2px #000;*/
+}
+div.post p{
+	font-size: 0.875em;
+	font-weight:400;
+	line-height: 1.6;
+	margin-top: 10px;
+	padding: 0 10px;
+}
+div.post h2{
+	background-image: url(img/post_h_border.png);
+	background-repeat:repeat-x;
+	background-position:bottom;	
+}
+div.post h3{
+	padding: 10px 0 15px;
+	font-weight:600;
+	background-image: url(img/post_h_border.png);
+	background-repeat:repeat-x;
+	background-position:bottom;	
+}
+div.post h4{
+	padding: 10px 0 15px;
+	font-weight:600;
+	background-image: url(img/post_h_border.png);
+	background-repeat:repeat-x;
+	background-position:bottom;	
+}
+div.post ol{
+	font-size:0.875em;
+	margin-left:40px;
+}
+div.post ol li{
+	list-style-type:decimal;
+}
+div.post p strong{
+	text-shadow: 1px 1px 2px #fff;
+}
+p.postinfo{
+	color: #0c8bcd;
+	text-align: right;
+	margin: 20px 0 0;
+	clear: both;
+	text-shadow: 1px 1px 3px #fff;
+}
+p.postinfo a{
+	color: #0c8bcd;
+	text-shadow: 1px 1px 3px #fff;
+}
+
+/********************************************************
+			記事内の画像の回り込み
+*********************************************************/
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+	margin-right: : 10px;
+	margin-bottom: 10px;
+}
+.alignright{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+/*
+	キャプションのついた画像のスタイル
+*/
+.wp-caption{
+	border: solid 1px #AAAAAA;
+	text-align: center;
+	padding-top: 5px;
+}
+div.post img{
+	border: none;
+}
+
+/*  ページリンク */
+span.oldpage{
+	float: left;
+}
+span.newpage{
+	float: right;
+}
+p.pagelink a{
+	font-size: 0.75em;
+	color: #0c8bcd;
+}
+p.pagelink{
+	overflow: hidden;
+	width: 100%;
+}
+
+/* CSS Document */
+
+/*****************************************************
+					コメント 
+******************************************************/
+#comments{
+	border: solid 1px #0c8bcd;
+	padding: 0 18px;
+	margin: 0 20px;
+}
+#comments h3{
+	font-size: 0.875em;
+	border-bottom: solid 1px #0c9bcd;
+	padding-bottom: 3px;
+	margin-top: 20px;
+}
+#comments p{
+	font-size: 0.75em;
+}
+#comments p a{
+	color: #0c8bcd;
+}
+#comments input, #comments, textarea{
+	display: block;
+}
+#comments textarea{
+	width: 560px;
+}
+#comments .required{
+	color: #ff0000;
+}
+#comments code{
+	display: block;
+	margin-top: 5px;
+	font-size: smaller;
+}
+#comments ul{
+	margin: 0;
+	padding: 0;
+}
+#comments li.compost{
+	list-style-type: none;
+	border-bottom: dotted 1px #0c8bcd;
+}
+
+
+#comments div.commentarea{
+	width: 800px;
+	margin-top:10px;
+	margin-left:80px;
+}
+#comments div.commentarea:after{
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+#comments div.commentarea p{
+	margin:0;
+	padding:0;
+}
+#comments p.cominfo{
+	text-align: right;
+}
+#comments #comfeed a{
+	background-image: url(img/feed-icon-28x28.png);
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	padding-left: 17px;
+	line-height: 1em;
+	color: #000000;
+	text-decoration: none;
+}
+#comments #comfeed{
+	background-color: #A3D2F2;
+	padding: 8px;
+	margin-top: 30px;
+}
+#comments #trurl{
+	background-color: #A3D2F2;
+	padding: 8px;
+	margin-bottom: 30px;
+}
+
+#comments .icon_image{
+	float:left;
+	margin-right:20px;
+}
+
+
+/* *********************************************
+			サイドバー 
+************************************************/
+div#sidebar{
+	width: 250px;
+	float: right;
+}
+div#sidebar li.widget_search{
+	margin-bottom:25px;
+}
+div#sidebar li.widget_search label.screen-reader-text{
+	visibility:hidden;
+	position: absolute;
+	left: -9999px;
+}
+div#sidebar li.widget_search #s{/* 検索文字を入力する部分 */
+  width:180px;
+  height:20px;
+}
+div#sidebar li.widget_search #searchsubmit{/* 右側の[検索]ボタン */
+}
+
+
+/*
+div#sidebar ul{
+}
+div#sidebar li{
+}
+*/
+div#sidebar .widget {
+	margin-bottom: 10px;
+}
+div#sidebar h2{
+	font-size: 1em;
+	color: #ffffff;
+	text-shadow: 1px 1px 2px #000;
+	border-bottom: solid 1px #FFFFFF;
+	padding-bottom: 8px;
+	margin: 0 0 10px;
+}
+
+div#sidebar li li{
+	font-size: 0.85em;
+	color: #ffffff;
+	margin-bottom: 4px;
+	list-style-type:circle;
+	margin-left:20px;
+}
+
+div#sidebar li li a{
+	text-decoration: none;
+	color: #FFF;
+}
+div#sidebar li li a:hover{
+	color: #ffaa00;
+}
+
+/*****************************************
+				フィード 
+******************************************/
+p.feed{
+	font-size: 0.75em;
+	font-family: verdana, helvetica, sens-serif;
+	border: solid 1px #0c8bcd;
+	padding: 5px;
+	margin: 25px 0;
+}
+p.feed a{
+	color: #444444;
+	text-decoration: none;
+}
+p.feed img{
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+/*******************************************
+				フッター 
+********************************************/
+div#footer{
+	clear: both;
+	height: 100px;
+	border-top: solid 3px #000000;
+	padding: 6px 0;
+	background-color: #310;
+	background-image: url(body_background_navigator.png);
+	
+}
+div#footer div#footer_textarea{
+	width: 820px;
+	margin: auto;
+	padding-top: 40px;
+}
+address{
+	text-align: center;
+	font-size: 0.75em;
+	font-style: normal;
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	color: #fff;
+}
+address a{
+	color: #fff;
+}
+
+/* 固定ページ */
+div#content.page{
+	width: 100%;
+}
+
+/* トップページ */
+div#topcontent p{
+	text-align: center;
+	font-size: 0.875em;
+	line-height: 1.5;
+	margin: 0 0 20px;
+}
+
+/* コンテンツの背景 
+div.post,
+p.feed,
+#comments{
+	background-color: #ffffff;
+}
+*/
