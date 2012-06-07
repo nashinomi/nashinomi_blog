@@ -1,5 +1,6 @@
 
 <div id="sidebar">
+	<a class="webstadio_bana" href="http://nashinomi.com/webstadio/" target="_blank">ナシの実-WEB工房</a>
     <ul>
         <?php dynamic_sidebar(); ?>
     </ul>

@@ -362,11 +362,13 @@ div#sidebar li.widget_search label.screen-reader-text{
 	position: absolute;
 	left: -9999px;
 }
-div#sidebar li.widget_search #s{/* 検索文字を入力する部分 */
+/* 検索文字を入力する部分 */
+div#sidebar li.widget_search #s{
   width:180px;
   height:20px;
 }
-div#sidebar li.widget_search #searchsubmit{/* 右側の[検索]ボタン */
+/* 右側の[検索]ボタン */
+div#sidebar li.widget_search #searchsubmit{
 }
 
 
@@ -404,6 +406,15 @@ div#sidebar li li a:hover{
 	color: #ffaa00;
 }
 
+div#sidebar a.webstadio_bana{
+	display:inline-block;
+	width:200px;
+	height:55px;
+	text-indent:-9999px;
+	background-image: url(img/webstudio.png);
+	margin-left:20px;
+	margin-bottom:20px;
+}
 /*****************************************
 				フィード 
 ******************************************/
