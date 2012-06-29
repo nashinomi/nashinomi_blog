@@ -198,15 +198,13 @@ div.post p strong{
 	text-shadow: 1px 1px 2px #fff;
 }
 p.postinfo{
-	color: #0c8bcd;
+	color: #fff;
 	text-align: right;
 	margin: 20px 0 0;
 	clear: both;
-	text-shadow: 1px 1px 3px #fff;
 }
 p.postinfo a{
-	color: #0c8bcd;
-	text-shadow: 1px 1px 3px #fff;
+	color: #fff;
 }
 
 /********************************************************
@@ -250,6 +248,9 @@ span.newpage{
 p.pagelink a{
 	font-size: 0.75em;
 	color: #0c8bcd;
+}
+p.pagelink a:hover{
+	color: #FA0;
 }
 p.pagelink{
 	overflow: hidden;

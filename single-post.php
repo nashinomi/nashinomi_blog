@@ -18,9 +18,6 @@
                     <div class="content_bottom">
                         <p class="postinfo">
                             <?php echo get_the_date('Y年Fd日 l'); the_time(); ?>
-                            |
-                            <a href="<?php comments_link(); ?>">コメント
-                            <?php comments_number(' (0) ',' (1) ',' (%) '); ?></a>
                         </p> 
                     </div>
                  </div>
@@ -33,7 +30,7 @@
                     </span>
                  </p>
                 <!-- コメント部分  -->
-                <?php comments_template(); ?>
+                <?php //comments_template(); ?>
 			<!-- end_content -->
 			</div>
             <!-- サイドバー -->
